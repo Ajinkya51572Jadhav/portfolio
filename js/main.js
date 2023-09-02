@@ -1,3 +1,19 @@
+
+//   cursor 
+       
+       let body = document.querySelector("body");
+       console.log(body);
+       let cursor = document.querySelector(".cursor");
+
+        body.addEventListener("mousemove",(move)=>{
+            console.log(move);
+                cursor.style.top=`${move.y}px`;   
+                cursor.style.left=`${move.x}px`; 
+             });
+
+
+
+
 /*--------------- navigation menu ----------------- */
 (() => {
 

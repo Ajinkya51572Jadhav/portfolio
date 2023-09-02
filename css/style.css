@@ -60,6 +60,18 @@ body{
     scrollbar-color: var(--skin-color) var(--bg-scroll);
 }
 
+
+
+
+.cursor{
+  position: absolute;
+  background-color:var(--skin-color);
+  height:30px;
+  width:30px;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+}
+
 body::-webkit-scrollbar-track {
     background: var(--bg-scroll);
 }
@@ -80,6 +92,7 @@ body::-webkit-scrollbar {
 html {
     scroll-behavior: smooth;
     --scrollbarBG: transparent;
+
 }
 
 *{
