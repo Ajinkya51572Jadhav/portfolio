@@ -65,6 +65,10 @@
         padding-bottom: 30px;
     }
 
+    .about-section .about-img .img-box img{
+        height: 50vh;
+    }
+
     .about-section .timeline .timeline-item:nth-child(odd){
         padding-right: 15px;
         text-align: left;

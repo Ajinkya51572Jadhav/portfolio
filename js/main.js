@@ -87,6 +87,12 @@
     })
 })();
 
+
+
+
+
+
+
 // about tab 
 (() => {
     const aboutSection = document.querySelector(".about-section"),
@@ -144,10 +150,11 @@ function bodyScrollingToggle() {
     
 })();
 
+
 window.addEventListener("load", () =>{
     // preload
     document.querySelector(".preloader").classList.add("fade-out");
     setTimeout(() =>{
         document.querySelector(".preloader").style.display = "none";
-    }, 600)
+    },600)
 })

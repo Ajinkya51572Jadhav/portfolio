@@ -49,8 +49,8 @@ body.dark{
 
 /* global style  */
 body{
-    font-size: 16px;
-    line-height: 1.5;
+    font-size:16px;
+    line-height:1.5;
     /* overflow: hidden; */
     background-color: var(--bg-black-50);
     text-transform: capitalize;
@@ -58,9 +58,8 @@ body{
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: var(--skin-color) var(--bg-scroll);
+       
 }
-
-
 
 
 .cursor{
@@ -87,6 +86,7 @@ body.stop-scrolling{
 
 body::-webkit-scrollbar {
     width: 11px;
+    
 }
 
 html {
@@ -184,7 +184,7 @@ img{
     align-items: center;
 }
 .btn-1{
-    padding: 10px 25px;
+     padding: 10px 25px;
     font-size: 16px;
     font-weight: 500;
     color: var(--skin-color);
@@ -272,7 +272,7 @@ img{
     
 }
 .effect-5{
-    height: 50px;
+    height: 50px; 
     width: 50px;
     top: 30%;
     right: 10%;
@@ -942,7 +942,7 @@ img{
 /* start service */
  .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-template-columns:repeat(auto-fit, minmax(350px,1fr));
     margin: 200px 90px auto;
     grid-gap: 20px;
 }
@@ -1021,6 +1021,7 @@ img{
      text-transform: uppercase;
 }
 
+
 .Box .front-fase .Icon i ,
 .Box .front-fase  span{
     -webkit-background-clip: text;
@@ -1059,15 +1060,17 @@ margin-top:10px;
 text-align: justify;
 }
 
- .Box:hover .back-fase {
+
+.Box:hover .front-fase {
+    transform: translateY(-110px) rotateX(90deg);
+    opacity:-1;
+    }
+
+.Box:hover .back-fase {
 transform: rotateX(0deg);
 opacity: 1;
 }
 
-.Box:hover .front-fase {
-    transform: translateY(-110px) rotateX(90deg);
-    opacity: -1;
-    }
 
 
 
@@ -1093,17 +1096,6 @@ opacity: 1;
 
 
 /* end service */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
